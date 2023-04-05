@@ -13,7 +13,6 @@
 		A83A1D5D29D9ECCA000B0D27 /* TaskList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A83A1D5B29D9ECCA000B0D27 /* TaskList.xcdatamodeld */; };
 		A83A1D5F29D9ECCB000B0D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A83A1D5E29D9ECCB000B0D27 /* Assets.xcassets */; };
 		A83A1D6229D9ECCB000B0D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83A1D6029D9ECCB000B0D27 /* LaunchScreen.storyboard */; };
-		BBC0EEB129DC9BD80058663C /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC0EEB029DC9BD80058663C /* AlertController.swift */; };
 		BBC0EEB429DC9C200058663C /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC0EEB329DC9C200058663C /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +25,6 @@
 		A83A1D5E29D9ECCB000B0D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A83A1D6129D9ECCB000B0D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A83A1D6329D9ECCB000B0D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBC0EEB029DC9BD80058663C /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		BBC0EEB329DC9C200058663C /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,8 +60,7 @@
 			children = (
 				BBC0EEAF29DC9AFD0058663C /* ViewControllers */,
 				BBC0EEB529DC9C2B0058663C /* Services */,
-				BBC0EEB229DC9BEA0058663C /* AlertController */,
-				BBC0EEB729DC9C560058663C /* LaunchScreen */,
+				BBC0EEB729DC9C560058663C /* Storyboards */,
 				BBC0EEB629DC9C460058663C /* Resourses */,
 				BBC0EEB829DC9C8F0058663C /* App */,
 				A83A1D5B29D9ECCA000B0D27 /* TaskList.xcdatamodeld */,
@@ -77,14 +74,6 @@
 				A83A1D5629D9ECCA000B0D27 /* TaskListViewController.swift */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		BBC0EEB229DC9BEA0058663C /* AlertController */ = {
-			isa = PBXGroup;
-			children = (
-				BBC0EEB029DC9BD80058663C /* AlertController.swift */,
-			);
-			path = AlertController;
 			sourceTree = "<group>";
 		};
 		BBC0EEB529DC9C2B0058663C /* Services */ = {
@@ -103,12 +92,12 @@
 			path = Resourses;
 			sourceTree = "<group>";
 		};
-		BBC0EEB729DC9C560058663C /* LaunchScreen */ = {
+		BBC0EEB729DC9C560058663C /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
 				A83A1D6029D9ECCB000B0D27 /* LaunchScreen.storyboard */,
 			);
-			path = LaunchScreen;
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		BBC0EEB829DC9C8F0058663C /* App */ = {
@@ -192,7 +181,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A83A1D5D29D9ECCA000B0D27 /* TaskList.xcdatamodeld in Sources */,
-				BBC0EEB129DC9BD80058663C /* AlertController.swift in Sources */,
 				A83A1D5729D9ECCA000B0D27 /* TaskListViewController.swift in Sources */,
 				BBC0EEB429DC9C200058663C /* StorageManager.swift in Sources */,
 				A83A1D5329D9ECCA000B0D27 /* AppDelegate.swift in Sources */,
@@ -337,7 +325,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GBTTU32HS2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TaskList/Info.plist;
+				INFOPLIST_FILE = TaskList/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
@@ -369,7 +357,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GBTTU32HS2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TaskList/Info.plist;
+				INFOPLIST_FILE = TaskList/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
